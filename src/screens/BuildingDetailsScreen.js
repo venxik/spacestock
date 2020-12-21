@@ -146,7 +146,7 @@ const BuildingDetailsScreen = ({navigation, route}) => {
             ))}
           </View>
           <Separator />
-          <Text style={{marginHorizontal: horizontal}}>{details}</Text>
+          <Text style={{marginHorizontal: horizontal*2, fontSize: 18}}>{details}</Text>
           <TouchableOpacity style={styles.contactHostContainer} onPress={() => callHost()}>
             <Text style={styles.contactHostText}>Contact host</Text>
           </TouchableOpacity>
